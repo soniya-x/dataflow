@@ -1,5 +1,5 @@
 import React from "react";
-import { useGetAlbumsByUserIdQuery } from "../../api/postApi";
+import { useGetAlbumsByUserIdQuery } from "../../api/UserApi";
 import { useParams, useNavigate } from "react-router-dom";
 import Button from "../../components/post/Button";
 

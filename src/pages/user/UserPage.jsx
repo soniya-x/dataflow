@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useGetUsersQuery } from "../../api/postApi";
+import { useGetUsersQuery } from "../../api/UserApi";
 import UserCard from "../../components/user/UserCard";
 const UserPage = () => {
     const navigate=useNavigate()
